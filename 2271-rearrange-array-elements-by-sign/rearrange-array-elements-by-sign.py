@@ -1,6 +1,6 @@
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
-        #noor
+#noor TC o(n^2)
         # pos= []
         # neg= []
         # for i in range (0, len(nums)):
@@ -15,6 +15,7 @@ class Solution:
 
         # return nums
 
+#optimal solution TC O(N)
         pos = []
         neg= []
         n = len(nums)
