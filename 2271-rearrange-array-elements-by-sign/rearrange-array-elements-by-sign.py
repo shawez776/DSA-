@@ -1,5 +1,6 @@
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
+        #noor
         pos= []
         neg= []
         for i in range (0, len(nums)):
