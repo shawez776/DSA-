@@ -3,6 +3,8 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        #optimal solution subbmitd by noor
+        #first do the transpose then reverse the list
         n = len(matrix)
         for i in range(0,n-1):
             for j in range(i+1, n):
