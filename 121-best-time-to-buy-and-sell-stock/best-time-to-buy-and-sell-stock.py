@@ -1,6 +1,6 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        #submitted by noor
+        #submitted by noor Tc O(N)
         max_profit = 0
         min_price = float("inf")
         n = len (prices)
