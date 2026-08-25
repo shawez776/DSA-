@@ -3,6 +3,7 @@ from typing import List
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         #submitted by noor
+        #this  code gives the position of lower bond also
         n = len(nums)
         lb = n  
         low = 0
