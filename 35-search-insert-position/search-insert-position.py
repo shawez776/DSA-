@@ -2,8 +2,9 @@ from typing import List
 
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
+        #submitted by noor
         n = len(nums)
-        lb = n  # Default to n if target is greater than all elements
+        lb = n  
         low = 0
         high = n - 1
         
