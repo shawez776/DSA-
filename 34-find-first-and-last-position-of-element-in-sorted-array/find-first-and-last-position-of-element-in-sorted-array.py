@@ -1,3 +1,4 @@
+#submitted by noor
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         def find_bound(is_first: bool) -> int:
