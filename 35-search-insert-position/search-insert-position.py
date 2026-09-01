@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
-        #submitted by noor
+        #submitted by noor on spet 1
         #this  code gives the position of lower bond also
         n = len(nums)
         lb = n  
