@@ -7,12 +7,12 @@ class Solution:
             
             if nums[mid] == target:
                 return True
-            
-            # Check if the right half is sorted
+            #edge case for the repeted element 
             if nums[low] == nums[mid] == nums[high]:
                 low += 1
                 high -= 1
                 continue
+            # Check if the right half is sorted
             if nums[mid] <= nums[high]:
                 if nums[mid] < target <= nums[high]:
                     low = mid + 1
