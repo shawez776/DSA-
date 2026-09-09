@@ -11,7 +11,6 @@
 
 #optimal solution (using binary search as it is sorted array)
 
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums) - 1
