@@ -1,3 +1,4 @@
+#submitted by noor 
 #brute force solution 
 # class Solution:
 #     def search(self, nums: List[int], target: int) -> int:
