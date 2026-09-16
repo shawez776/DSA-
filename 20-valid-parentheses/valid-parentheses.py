@@ -1,5 +1,5 @@
 class Solution:
-    #submitted by noor on sep 14
+    #submitted by noor on sep 15
     def isValid(self, s: str) -> bool:
         i=0
         a=[]
