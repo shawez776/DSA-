@@ -1,5 +1,6 @@
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
+        #submited by noor on 24 sep
         if dividend == divisor:
             return 1
 
