@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+# submitted by noor on 27 sept
 SELECT p.product_id, p.product_name
 FROM Product p
 JOIN Sales s 
