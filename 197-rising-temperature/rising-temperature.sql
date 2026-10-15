@@ -1,3 +1,4 @@
+#submitted by noor in 14 oct
 SELECT current_weather.id
 FROM Weather current_weather
 JOIN Weather previous_weather
